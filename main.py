@@ -28,7 +28,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ----- Configuración de Variables -----
-ZABBIX_API_URL = "http://52.66.148.68/zabbix/api_jsonrpc.php"
+ZABBIX_API_URL = "http://localhost/zabbix/api_jsonrpc.php"
 ZABBIX_TOKEN = "77af53397a33bed3688bef7b428ec1c0fa91256c9c691779c482a1c158f28a33"
 AI_PROVIDER = "gemini"
 
